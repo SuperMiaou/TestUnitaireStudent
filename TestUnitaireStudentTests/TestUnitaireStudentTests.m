@@ -43,7 +43,7 @@
     XCTAssertNotNil(self.eleve, @"Eleve object not created");
     XCTAssertNotNil(self.note, @"Test object not created");
     
-    XCTAssertGreaterThan(note, <#expression2, ...#>)
+
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
 }

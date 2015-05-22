@@ -11,6 +11,7 @@
 @interface Cours : NSObject
 
 @property (strong) NSString *name;
+@property (strong) NSMutableArray* listStudent;
 
 
 @end

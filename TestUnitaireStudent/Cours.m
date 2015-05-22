@@ -20,5 +20,9 @@
     return self;
 }
 
-- (void)addStudent:(Eleve*)
+- (void)addStudent:(Eleve*) eleve {
+    if(eleve.lastname != nil && eleve.firstname != nil) {
+        [self.listStudent insertObject:eleve atIndex:[self ]]
+    }
+}
 @end

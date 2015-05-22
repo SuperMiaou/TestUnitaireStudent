@@ -436,6 +436,7 @@
 				9400B0FF1B0F59D90084555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9400B1001B0F59D90084555C /* Build configuration list for PBXNativeTarget "TestUnitaireStudentTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +445,7 @@
 				9400B1021B0F59D90084555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

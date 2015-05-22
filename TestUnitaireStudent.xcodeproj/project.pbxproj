@@ -14,6 +14,8 @@
 		9400B0EB1B0F59D90084555C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9400B0EA1B0F59D90084555C /* Images.xcassets */; };
 		9400B0EE1B0F59D90084555C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9400B0EC1B0F59D90084555C /* LaunchScreen.xib */; };
 		9400B0FA1B0F59D90084555C /* TestUnitaireStudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0F91B0F59D90084555C /* TestUnitaireStudentTests.m */; };
+		9400B1051B0F59E70084555C /* Cours.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B1041B0F59E70084555C /* Cours.m */; };
+		9400B1081B0F59F20084555C /* Eleve.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B1071B0F59F20084555C /* Eleve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		9400B0F31B0F59D90084555C /* TestUnitaireStudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUnitaireStudentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9400B0F81B0F59D90084555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9400B0F91B0F59D90084555C /* TestUnitaireStudentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUnitaireStudentTests.m; sourceTree = "<group>"; };
+		9400B1031B0F59E70084555C /* Cours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cours.h; sourceTree = "<group>"; };
+		9400B1041B0F59E70084555C /* Cours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cours.m; sourceTree = "<group>"; };
+		9400B1061B0F59F20084555C /* Eleve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eleve.h; sourceTree = "<group>"; };
+		9400B1071B0F59F20084555C /* Eleve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eleve.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				9400B0EA1B0F59D90084555C /* Images.xcassets */,
 				9400B0EC1B0F59D90084555C /* LaunchScreen.xib */,
 				9400B0DD1B0F59D90084555C /* Supporting Files */,
+				9400B1031B0F59E70084555C /* Cours.h */,
+				9400B1041B0F59E70084555C /* Cours.m */,
+				9400B1061B0F59F20084555C /* Eleve.h */,
+				9400B1071B0F59F20084555C /* Eleve.m */,
 			);
 			path = TestUnitaireStudent;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				9400B0E61B0F59D90084555C /* ViewController.m in Sources */,
 				9400B0E31B0F59D90084555C /* AppDelegate.m in Sources */,
+				9400B1051B0F59E70084555C /* Cours.m in Sources */,
+				9400B1081B0F59F20084555C /* Eleve.m in Sources */,
 				9400B0E01B0F59D90084555C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

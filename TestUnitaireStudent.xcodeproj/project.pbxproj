@@ -16,6 +16,7 @@
 		9400B0FA1B0F59D90084555C /* TestUnitaireStudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0F91B0F59D90084555C /* TestUnitaireStudentTests.m */; };
 		9400B1051B0F59E70084555C /* Cours.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B1041B0F59E70084555C /* Cours.m */; };
 		9400B1081B0F59F20084555C /* Eleve.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B1071B0F59F20084555C /* Eleve.m */; };
+		9400B10B1B0F5C490084555C /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B10A1B0F5C490084555C /* Note.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		9400B1041B0F59E70084555C /* Cours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cours.m; sourceTree = "<group>"; };
 		9400B1061B0F59F20084555C /* Eleve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eleve.h; sourceTree = "<group>"; };
 		9400B1071B0F59F20084555C /* Eleve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eleve.m; sourceTree = "<group>"; };
+		9400B1091B0F5C490084555C /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		9400B10A1B0F5C490084555C /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				9400B1041B0F59E70084555C /* Cours.m */,
 				9400B1061B0F59F20084555C /* Eleve.h */,
 				9400B1071B0F59F20084555C /* Eleve.m */,
+				9400B1091B0F5C490084555C /* Note.h */,
+				9400B10A1B0F5C490084555C /* Note.m */,
 			);
 			path = TestUnitaireStudent;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				9400B0E61B0F59D90084555C /* ViewController.m in Sources */,
 				9400B0E31B0F59D90084555C /* AppDelegate.m in Sources */,
 				9400B1051B0F59E70084555C /* Cours.m in Sources */,
+				9400B10B1B0F5C490084555C /* Note.m in Sources */,
 				9400B1081B0F59F20084555C /* Eleve.m in Sources */,
 				9400B0E01B0F59D90084555C /* main.m in Sources */,
 			);

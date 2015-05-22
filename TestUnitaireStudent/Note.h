@@ -1,5 +1,5 @@
 //
-//  Cours.h
+//  Note.h
 //  TestUnitaireStudent
 //
 //  Created by Matthieu Chante on 22/05/2015.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Cours : NSObject
-
-@property (strong) NSString *name;
-
+@interface Note : NSObject
 
 @end

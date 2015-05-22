@@ -7,7 +7,18 @@
 //
 
 #import "Cours.h"
+#import "Eleve.h"
 
 @implementation Cours
 
+- (instancetype)initWhitName:(NSString*) name {
+    self = [super init];
+    
+    if (self != nil) {
+        self.name = name;
+    }
+    return self;
+}
+
+- (void)addStudent:(Eleve*)
 @end
